@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxury Nails</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Luxury Nails</h1>
+    <p>Beautiful Nails • Professional Care • Relaxing Experience</p>
+
+    <a href="#booking" class="button">Book Appointment</a>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Us</h2>
+
+<p>
+Welcome to Luxury Nails! We specialize in manicures, pedicures, gel nails,
+acrylics, nail art, and spa treatments. Our goal is to make every client feel
+beautiful and relaxed.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Manicure</h3>
+<p>Classic manicure with polish.</p>
+</div>
+
+<div class="card">
+<h3>Pedicure</h3>
+<p>Spa pedicure for beautiful feet.</p>
+</div>
+
+<div class="card">
+<h3>Gel Nails</h3>
+<p>Long-lasting gel polish.</p>
+</div>
+
+<div class="card">
+<h3>Nail Art</h3>
+<p>Custom designs for every occasion.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/300?1">
+<img src="https://picsum.photos/300?2">
+<img src="https://picsum.photos/300?3">
+<img src="https://picsum.photos/300?4">
+
+</div>
+
+</section>
+
+<section id="booking">
+
+<h2>Book an Appointment</h2>
+
+<form id="appointmentForm">
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<input type="tel" placeholder="Phone Number">
+
+<select required>
+
+<option value="">Choose Service</option>
+
+<option>Manicure</option>
+<option>Pedicure</option>
+<option>Gel Nails</option>
+<option>Acrylic Nails</option>
+<option>Nail Art</option>
+
+</select>
+
+<input type="date" required>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>📍 Your Address Here</p>
+
+<p>📞 (555) 123-4567</p>
+
+<p>📧 your@email.com</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Luxury Nails. All Rights Reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
